@@ -1,5 +1,5 @@
 # WebHTTPProxy
-Simplest ASP.NET application to proxy any income request
+Simplest ASP.NET application to proxy any income request for IIS 7+ (integrated pipeline mode)
 
 To make request to this url
 
