@@ -38,6 +38,7 @@ namespace WebProxy
                     contentType = "text/javascript";
                 }
 
+                context.Response.AddHeader("Access-Control-Allow-Origin", "*");
                 context.Response.ContentType = contentType;
                 context.Response.Write(new StreamReader(response.GetResponseStream()).ReadToEnd());
             }
